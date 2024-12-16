@@ -1,0 +1,31 @@
+.footer {
+  @apply w-full h-fit flex flex-row relative px-20 py-20 max-md:px-4 max-md:py-6 bg-[#2A2A2A] text-[#FAFAFA] justify-between items-center;
+}
+
+.footer-logo {
+  font-family: "Poppins";
+  @apply flex items-center justify-center text-[36px] max-md:text-[16px];
+}
+
+.footer-feature {
+  @apply w-full h-fit flex flex-row items-end justify-end gap-32 max-md:gap-8;
+}
+
+.footer-feature-1 {
+  @apply flex flex-col justify-start items-start;
+}
+
+.footer-feature-1-title {
+  font-family: "Poppins";
+  @apply flex items-start justify-start max-md:text-[12px];
+}
+
+.footer-feature-1-list {
+  font-family: "Lora";
+  @apply flex flex-col items-start justify-start max-md:text-[12px];
+}
+
+.copyright {
+  font-family: "Lora";
+  @apply w-full h-fit flex p-6 text-[16px] max-md:text-[12px] text-[#FAFAFA] bg-[#2A2A2A];
+}

@@ -1,0 +1,39 @@
+
+.articledet{
+  @apply relative w-full h-fit pt-40 max-md:pt-32 flex flex-col px-10 max-md:px-2 gap-6 pb-40;
+}
+
+.articledet-title{
+  font-family: "Poppins";
+  @apply w-full h-fit py-10 text-[96px] max-md:text-[48px] max-md:px-10 max-md:leading-[48px] text-[#2A2A2A] border-t-2 border-[#2A2A2A] flex items-center justify-center leading-[95px];
+}
+
+.articledet-identity{
+  font-family: "Lora";
+  @apply w-full h-fit py-5 text-[24px] max-md:text-[14px] text-[#2A2A2A] border-b-2 border-t-2 border-[#2A2A2A] flex items-center justify-between;
+}
+
+.articledet-identity-1{
+  @apply flex items-center justify-between gap-7;
+}
+
+.bullet-v2{
+  @apply bg-[#2A2A2A] h-[30px] w-[30px] max-md:h-[15px] max-md:w-[15px] rounded-full flex items-center justify-center
+}
+
+.article-ctg-v2{
+  @apply flex items-center justify-center bg-[#2A2A2A] text-[18px] max-md:text-[14px] text-[#FFFFFF] h-fit w-fit p-7 max-md:p-2;
+}
+
+.articledet-media{
+  @apply h-[600px] w-full border-[#2A2A2A] border-b-2 pb-5
+}
+
+.articledet-media img{
+  @apply w-full h-full object-cover;
+}
+
+.articledet-desc{
+  font-family: 'Lora';
+  @apply text-[#2A2A2A] text-[32px] max-md:text-[20px] text-justify;
+}

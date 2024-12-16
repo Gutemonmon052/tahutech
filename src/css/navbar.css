@@ -1,0 +1,13 @@
+.navbar {
+  @apply w-full h-fit fixed z-[99] p-10 flex flex-row justify-center items-center;
+}
+
+.navbar-content {
+  font-family: 'Lora';
+  @apply flex flex-row justify-center items-center gap-10 max-md:gap-3 text-[#999999] text-[16px] ;
+}
+
+.navbar-logo {
+  font-family: 'Poppins';
+  @apply flex justify-center items-center text-[#2E2E2E] text-[22px] italic max-md:text-[18px];
+}

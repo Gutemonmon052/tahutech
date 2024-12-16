@@ -1,0 +1,22 @@
+.notfound{
+  @apply w-fit h-fit flex flex-col gap-2 justify-center items-center py-24 px-20 max-md:px-2 max-md:py-44;
+}
+
+.notfound h2{
+  font-family: "Poppins";
+  @apply w-fit h-fit text-[125px] text-[#2A2A2A] leading-[56px] max-md:text-[100px] max-md:leading-[102px] py-24 border-[#2A2A2A] border-b-2 border-t-2;
+}
+
+.notfound p{
+  font-family: "Lora";
+  @apply w-fit h-fit text-[#2A2A2A] text-[32px] text-justify max-md:text-[24px] py-5;
+}
+
+.btn{
+  font-family: "Lora";
+  @apply w-fit h-fit rounded-sm bg-[#2A2A2A] text-[#FAFAFA] p-7;
+}
+
+.btn:hover{
+  @apply bg-[#FAFAFA] text-[#2A2A2A] ease-out duration-100;
+}

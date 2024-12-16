@@ -1,0 +1,22 @@
+
+.jumbotron{
+  @apply pt-40 px-14 pb-20 flex flex-col justify-center items-center gap-10 relative max-md:px-5 max-md:pb-10 max-md:pt-28;
+}
+
+.jumbotron-title{
+  @apply flex flex-row max-md:flex-col w-full h-fit justify-between gap-5;
+}
+
+.j-title{
+  font-family: "Poppins";
+  @apply flex items-start justify-start text-[#2A2A2A] text-[84px] text-left leading-[86px] max-md:text-[56px] max-md:leading-[58px];
+}
+
+.j-text{
+  font-family: "Lora";
+  @apply flex items-start justify-start text-[#2A2A2A] text-[22px] text-justify leading-[24px] max-md:text-[18px] max-md:leading-[20px] h-full w-fit;
+}
+
+.j-media{
+  @apply flex justify-center items-center w-full h-[40%] max-md:h-[60%];
+}

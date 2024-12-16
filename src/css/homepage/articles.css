@@ -1,0 +1,70 @@
+
+.recently{
+  @apply w-full h-fit flex flex-col justify-center items-center px-10 pb-12;
+}
+
+.recently-title{
+  font-family: "Poppins";
+  @apply flex flex-row w-full h-fit text-[#2A2A2A] text-[56px] text-center leading-[60px] py-6 border-t-2 border-b-2 border-[#2A2A2A];
+}
+
+.recently-list{
+  @apply w-full h-fit flex flex-row max-md:flex-col justify-center items-center gap-8;
+}
+
+.article-card{
+  @apply w-fit h-fit flex flex-col justify-start items-start gap-2;
+}
+
+.article-datetime{
+  font-family: "lora";
+  @apply w-full h-fit flex flex-row items-center justify-between gap-2 text-[16px] text-[#2A2A2A] border-b-2 border-[#2A2A2A] py-3;
+}
+
+.datetime-dt{
+  @apply w-fit h-fit flex flex-row items-center justify-center gap-2;
+}
+
+.bullet{
+  @apply flex items-center justify-center w-3 h-3 rounded-full bg-[#2A2A2A];
+}
+
+.date, .time{
+  @apply w-fit h-fit flex justify-center items-center;
+}
+
+.article-media{
+  @apply w-full h-[280px] max-md:h-[240px] flex justify-center items-center overflow-hidden;
+}
+
+.article-media img{ 
+  @apply w-full h-full object-cover;
+}
+
+.article-title{
+  font-family: "Poppins";
+  @apply w-full h-fit flex flex-row justify-center items-center text-[26px] max-md:text-[22px] text-[#2A2A2A] border-t-2 border-[#2A2A2A] pt-3;
+}
+
+.article-title h3{
+  @apply line-clamp-3
+}
+
+.article-ctg{
+  font-family: "lora";
+  @apply w-fit h-fit flex flex-col text-[#2A2A2A] text-[12px] border-2 border-[#2A2A2A] p-2;
+}
+
+.article-desc{
+  font-family: "lora";
+  @apply w-fit h-fit flex flex-col justify-center items-center text-[#2A2A2A] text-[20px] max-md:text-[16px] text-justify leading-[28px] border-t-2 border-[#2A2A2A];
+}
+
+.article-desc p{
+  @apply line-clamp-3
+}
+
+.article-link{
+  font-family: "Poppins";
+  @apply w-full h-fit flex flex-row items-end justify-end text-[24px] text-[#2A2A2A] border-t-2 border-[#2A2A2A] py-3 cursor-pointer;
+}

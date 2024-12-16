@@ -1,0 +1,40 @@
+
+.categoriespg{
+  @apply pt-40 px-14 pb-20 max-md:pt-32 max-md:px-2 flex flex-col justify-center items-center gap-10 relative w-full h-fit;
+}
+
+.categoriespg-title{
+  font-family: "Poppins";
+  @apply flex items-center justify-center text-[#2A2A2A] text-[96px] max-md:text-[64px] leading-[86px] max-md:leading-[68px] w-full h-fit;
+}
+
+.categoriespg-list{
+  @apply w-full h-fit flex flex-col justify-start items-start gap-8;
+}
+
+.categoriespg-list-1{
+  @apply w-full h-fit flex flex-col justify-start items-start gap-8 ;
+}
+
+.categoriespg-list-1-title{
+  font-family: "Poppins";
+  @apply flex flex-row items-center justify-between text-[#2A2A2A] text-[56px] max-md:text-[32px] leading-[56px] max-md:leading-[34px] w-full h-fit text-left border-b-2 border-t-2 border-[#2A2A2A] py-5;
+}
+
+.categoriespg-list-1-content{
+  @apply w-full h-fit flex flex-col justify-start items-start gap-4 border-b-2 border-[#2A2A2A] ease-in-out duration-300;
+}
+
+.categoriespg-list-desc {
+  font-family: "Lora";
+  @apply w-full h-fit flex flex-col justify-start items-start text-[#2A2A2A] text-[24px] max-md:text-[20px] text-justify leading-[26px] max-md:leading-[22px];
+}
+
+.categoriespg-list-rec{
+  font-family: 'Poppins';
+  @apply text-[36px] max-md:text-[28px] py-4 text-[#2A2A2A] w-full h-fit flex flex-col justify-start items-start gap-4 border-b-2 border-t-2 border-[#2A2A2A];
+}
+
+.categoriespg-list-rec-arc{
+  @apply w-full h-fit flex flex-row gap-6 max-md:flex-col;
+}

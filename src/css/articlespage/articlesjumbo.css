@@ -1,0 +1,71 @@
+.articlejumbo-title{
+  font-family:'Poppins';
+  @apply pt-40 max-md:pt-32 relative w-full h-fit text-[#2A2A2A] text-[125px] max-md:text-[84px] border-b-2 border-t-2 border-[#2A2A2A] py-5;
+}
+
+.arjumbo-core{
+  @apply w-full h-fit flex flex-col;
+}
+
+.arjumbo-content{
+  @apply w-full h-fit flex flex-row max-md:flex-col pt-3 relative gap-6 pb-32 ;
+}   
+
+.ctg-sidebar{
+  @apply w-fit h-full max-md:w-full border-2 border-[#2A2A2A] z-10 px-5 pb-20 ml-5 max-md:px-1 max-md:ml-0 max-md:mx-3;  
+}
+
+.ctg-sidebar-title{
+  font-family: "Poppins";
+  @apply w-full h-full flex justify-center items-center text-[28px] max-md:text-[16px] text-[#2A2A2A] border-b-2 border-[#2A2A2A] p-5;
+}
+
+.ctg-sidebar-list{
+  font-family: "Lora";
+  @apply w-full h-fit flex flex-col max-md:grid max-md:grid-cols-2 items-start justify-start gap-6 text-[16px] max-md:text-[14px] text-[#2A2A2A] pt-5;
+}
+
+.ctg-sidebar-list label{
+  font-family: "Lora";
+  @apply flex flex-row gap-3 border-b-2 border-[#2A2A2A] w-full h-full items-center pb-2;
+}
+
+.ctg-sidebar-list input{
+  @apply w-[25px] h-[25px] bg-[#FAFAFA] rounded-[2px] max-md:w-[20px] max-md:h-[20px];
+}
+
+.ctg-sidebar button{
+  font-family: 'Lora';
+  @apply w-full h-fit max-md:w-full bg-[#2A2A2A] text-[#FAFAFA] text-[18px] p-2 max-md:text-[14px] max-md:p-3 mt-2;
+}
+
+.arjumbo-main{
+  @apply flex flex-col w-full h-fit 
+}
+
+.search{
+  @apply flex flex-row max-md:flex-col max-md:justify-center w-full h-fit items-center gap-5 pr-5 max-md:pr-0;
+}
+
+.search input{
+  font-family : "Lora";
+  @apply w-full h-fit p-5 border-2 border-[#2A2A2A] text-[14px] text-[#2A2A2A]; 
+}
+
+.search button{
+  font-family: 'Lora';
+  @apply w-fit h-fit max-md:w-full bg-[#2A2A2A] text-[#FAFAFA] text-[18px] p-5 max-md:text-[14px] max-md:p-3;
+}
+
+.search select{
+  font-family : 'Lora';
+  @apply w-fit h-fit max-md:w-full text-[18px] p-5 text-[#2A2A2A] max-md:text-[14px] max-md:p-3;
+}
+
+/* .search option{
+  @apply p-5 text-[14px];
+} */
+
+.arjumbo-list-ar{
+  @apply grid grid-cols-2 gap-5 max-md:grid-cols-1;
+}

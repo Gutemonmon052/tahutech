@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Poppins";
+  src: url("https://db.onlinewebfonts.com/t/9766863346bef0bd561ce3ffe885eba9.eot");
+  src: url("https://db.onlinewebfonts.com/t/9766863346bef0bd561ce3ffe885eba9.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/9766863346bef0bd561ce3ffe885eba9.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/9766863346bef0bd561ce3ffe885eba9.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/9766863346bef0bd561ce3ffe885eba9.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/9766863346bef0bd561ce3ffe885eba9.svg#Poppins")format("svg");
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.eot");
+  src: url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.svg#Lora")format("svg");
+}
+
+@layer base{
+  @import '../css/navbar.css';
+  @import '../css/homepage/jumbotron.css';
+  @import '../css/homepage/articles.css';
+  @import '../css/homepage/popctg.css';
+  @import '../css/homepage/subscribe.css';
+
+  @import '../css/articlespage/articlesjumbo.css';
+  @import '../css/articlespage/articlesdet.css';
+
+  @import '../css/categories/categories.css';
+  
+  @import '../css/about-us/aboutus.css';
+
+  @import '../css/footer.css';
+  @import '../css/notfound.css';
+  @import '../css/skeleton.css';
+}
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+

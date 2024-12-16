@@ -1,0 +1,22 @@
+.subscribe{
+  @apply flex flex-row max-md:flex-col w-full h-fit items-center justify-center max-md:items-start max-md:justify-start gap-5 px-24 py-36 max-md:px-10 border-t-2 border-b-2 border-[#2A2A2A] my-20;
+}
+
+.subscribe p{
+  font-family: "Lora";
+  @apply text-[#2A2A2A] text-[22px];
+}
+
+.subscribe input{
+  font-family: "Lora";
+  @apply w-[600px] h-fit rounded-sm border-2 border-[#2A2A2A] px-4 py-7 max-md:w-[300px];
+}
+
+.subscribe button{
+  font-family: "Lora";
+  @apply w-fit h-fit rounded-sm bg-[#2A2A2A] text-[#FAFAFA] p-7;
+}
+
+.subscribe button:hover{
+  @apply bg-[#FAFAFA] text-[#2A2A2A] ease-out duration-100;
+}

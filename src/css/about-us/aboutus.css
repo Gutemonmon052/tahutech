@@ -1,0 +1,109 @@
+.aboutjumbo{
+  @apply pt-40 px-14 pb-20 max-md:pt-32 max-md:px-2 flex flex-col justify-center items-center gap-10 relative;
+}
+
+.aboutjumbo-brief{
+  @apply w-full h-fit flex flex-row max-md:flex-col justify-start items-start gap-8;
+}
+
+.about-title{
+  font-family: 'Poppins';
+  @apply flex flex-col items-start justify-start text-[#2A2A2A] text-[96px] leading-[86px] max-md:text-[64px] max-md:leading-[68px] w-fit h-fit gap-5;
+}
+
+.about-media{
+  @apply w-[90%] h-fit flex justify-center items-center;
+}
+
+.about-media img{
+  @apply w-full h-full object-cover;
+}
+
+.about-brief{
+  @apply w-full h-fit flex flex-col justify-start items-start gap-4;
+}
+
+.about-his{
+  font-family: 'Poppins';
+  @apply w-full h-fit flex flex-row items-start justify-start text-[#2A2A2A] text-[48px] leading-[50px] max-md:text-[32px] max-md:leading-[34px] text-left border-b-2 border-t-2 border-[#2A2A2A] py-5;
+}
+
+.about-his-desc{
+  font-family: 'Lora';
+  @apply w-full h-fit flex flex-col justify-start items-start text-[#2A2A2A] text-[24px] max-md:text-[16px] text-justify leading-[26px] max-md:leading-[18px];
+}
+
+.contributors{
+  @apply w-full h-fit flex flex-col gap-5
+}
+
+.contributors-title{
+  @apply w-full h-fit flex flex-col items-center justify-center text-[#2A2A2A];
+}
+
+.contributors-title h2{
+  font-family: 'Poppins';
+  @apply text-[48px] leading-[50px] max-md:text-[32px] max-md:leading-[34px] text-center w-full h-fit border-b-2 border-t-2 border-[#2A2A2A] py-5;
+}
+
+.contributors-title p{
+  font-family: 'Lora';
+  @apply text-[24px] max-md:text-[16px] text-center w-full h-fit border-b-2 border-[#2A2A2A] py-5;
+}
+
+.contributors-list{
+  @apply w-full h-fit grid grid-cols-2 gap-6 max-md:grid-cols-1;
+}
+
+.contributors-list-item{
+  @apply w-full h-full flex flex-row items-start justify-start gap-5;
+}
+
+.contributors-list-item-pic{
+  @apply w-full h-full flex justify-center items-center;
+}
+
+.contributors-list-item-pic img{
+  @apply w-full h-full object-cover;
+}
+
+.contributors-list-item-name{
+  @apply w-full h-full flex flex-col items-start justify-start gap-2;
+}
+
+.contributors-list-item-name h3{
+  font-family: 'Poppins';
+  @apply text-[22px] text-[#2A2A2A] text-left w-full h-fit border-b-2 border-t-2 border-[#2A2A2A] py-5;
+}
+
+.contributors-list-item-name p{
+  font-family: 'Lora';
+  @apply text-[16px] text-[#2A2A2A] text-left w-full h-fit py-5;
+}
+
+.contact-us{
+  @apply w-full h-fit flex flex-row gap-5 px-10 py-20 border-t-2 border-b-2 border-[#2A2A2A];
+}
+
+.contactus-title{
+  @apply w-full h-fit flex flex-col text-[#2A2A2A] gap-3;
+}
+
+.contactus-title h3{
+  font-family: "Poppins";
+  @apply text-[24px] max-md:text-[20px]
+}
+
+.contactus-title p{
+  font-family: "Lora";
+  @apply text-[16px] max-md:text-[14px]
+}
+
+.contactus-sosmed{
+  @apply w-full h-fit flex flex-col gap-5;
+}
+
+.contactus-sosmed-item{
+  font-family: 'Lora';
+  @apply w-full h-full flex flex-row items-center justify-start gap-5 text-[#2A2A2A] text-[16px] max-md:text-[14px];
+}

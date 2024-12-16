@@ -1,0 +1,107 @@
+.article-skl-card{
+    @apply w-full h-fit flex flex-col animate-pulse gap-2;
+}
+
+.article-skl-pub{
+    @apply w-full h-fit flex flex-row justify-between items-center gap-6 border-[#2A2A2A4A] border-t-2 border-b-2 py-4;
+}
+
+.article-skl-bullet{
+    @apply w-[20px] h-[20px] rounded-full bg-[#2a2a2a4a];
+}
+
+.article-skl-data{
+    @apply w-full h-[10px] rounded-md bg-[#2A2A2A4A];
+}
+
+.article-skl-media{
+    @apply w-full h-[200px] bg-[#2A2A2A4A];
+}
+
+.article-skl-title{
+    @apply w-full h-[30px] py-4 border-t-2 border-b-2 border-[2A2A2A4A];
+}
+
+.article-skl-btn{
+    @apply w-full h-[50px] flex justify-end items-end border-t-2 border-[#2A2A2A4A];
+}
+
+.skl-btn{
+    @apply w-[35%] h-[30%] bg-[#2A2A2A4A];
+}
+
+/*Category Skeleton*/
+
+.ctg-skl{
+    @apply w-full h-fit flex flex-row py-6 border-[#2A2A2A] border-t-2 border-b-2 gap-5 justify-between animate-pulse items-center;
+}
+
+.ctg-skl-text{
+    @apply w-full h-[20px] bg-[#2A2A2A] rounded-md;
+}
+
+.ctg-skl-btn{
+    @apply w-[50px] h-[50px] bg-[#2A2A2A] rounded-md;
+}
+
+
+/*Contributor Sketelon */
+
+.contributor-skl-card{
+    @apply w-full h-fit flex flex-row gap-4;
+}
+
+.contributor-skl-media{
+    @apply w-[400px] h-[500px] bg-[#2A2A2A4A]
+}
+
+.contributor-skl-desc{
+    @apply w-full h-fit flex flex-col gap-3;
+}
+
+.contributor-skl-text{
+    @apply w-full h-fit py-4 border-[#2A2A2A4A] border-t-2 border-b-2;
+}
+
+.contributor-skl-data{
+    @apply w-full h-[20px] bg-[#2A2A2A4A] rounded-md;
+}
+
+.contributor-skl-text-1{
+    @apply w-full h-fit gap-2;
+}
+
+.contributor-skl-data-1{
+    @apply w-full h-[10px] bg-[#2A2A2A4A] rounded-md;
+}
+
+.articledet-skl{
+    @apply relative w-full h-fit pt-40 max-md:pt-32 flex flex-col px-10 max-md:px-2 gap-6 pb-40 animate-pulse;
+}
+
+.articledet-skl-title{
+    @apply flex flex-col w-full h-fit border-t-2 border-b-2 border-[#2A2A2A4A] py-10 gap-6;
+}
+
+.articledet-skl-text{
+    @apply w-full h-[30px] bg-[#2A2A2A] rounded-md;
+}
+
+.articledet-skl-media{
+    @apply w-full h-[500px] bg-[#2A2A2A4A]
+}
+
+.articledet-skl-desc{
+    @apply w-full h-fit flex flex-col gap-5;
+}
+
+/*Other*/
+.error{
+    font-family: "Lora";
+    @apply text-[16px] text-red-500;
+}
+
+.no-data{
+    font-family: "Lora";
+    @apply text-[16px] text-red-500;
+}
