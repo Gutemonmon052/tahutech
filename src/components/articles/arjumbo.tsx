@@ -53,6 +53,7 @@ export function ArticlesJumbo() {
             <input
               type="text"
               placeholder="Search..."
+              className="input input-bordered w-full" 
               value={pendingSearchQuery}
               onChange={(e) => setPendingSearchQuery(e.target.value)}
             />
@@ -60,6 +61,7 @@ export function ArticlesJumbo() {
               name="filter"
               id="filters-time"
               value={filterTime}
+              className="select select-ghost w-full max-w-xs"
               onChange={(e) => handleFilterChange(e.target.value)}
             >
               <option value="newest">Newest</option>
@@ -67,6 +69,7 @@ export function ArticlesJumbo() {
               <option value="month3">3 Month Ago</option>
               <option value="oldest">Oldest</option>
             </select>
+            
             <button onClick={applySearch}>Search</button>
           </div>
           <div className="arjumbo-main">
