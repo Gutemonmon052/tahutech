@@ -35,6 +35,7 @@ export function ArticlesJumbo() {
                 <label key={category}>
                   <input
                     type="checkbox"
+                    className="checkbox"
                     name={category}
                     checked={selectedCategories.includes(category)}
                     onChange={(e) =>
@@ -61,9 +62,10 @@ export function ArticlesJumbo() {
               name="filter"
               id="filters-time"
               value={filterTime}
-              className="select select-ghost w-full max-w-xs"
+              className="select w-full max-w-xs"
               onChange={(e) => handleFilterChange(e.target.value)}
             >
+              <option disabled selected>Filter by time</option>
               <option value="newest">Newest</option>
               <option value="month1">1 Month Ago</option>
               <option value="month3">3 Month Ago</option>
