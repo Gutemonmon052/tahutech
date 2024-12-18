@@ -1,4 +1,4 @@
-.footer {
+.footer-th {
   @apply w-full h-fit flex flex-row relative px-20 py-20 max-md:px-4 max-md:py-6 bg-[#2A2A2A] text-[#FAFAFA] justify-between items-center;
 }
 

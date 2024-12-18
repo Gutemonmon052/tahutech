@@ -20,3 +20,7 @@
 .subscribe button:hover{
   @apply bg-[#FAFAFA] text-[#2A2A2A] ease-out duration-100;
 }
+
+.btn{
+  @apply p-0;
+}

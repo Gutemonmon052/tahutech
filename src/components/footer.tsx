@@ -6,7 +6,7 @@
 export function Footer () {
   return (
     <div>
-      <div className="footer">
+      <div className="footer-th">
         <div className="footer-logo">
           <span><i>Tahutech.</i></span>
         </div>
