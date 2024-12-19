@@ -5,7 +5,7 @@
 
 .popularctg-title{
   font-family: "Poppins";
-  @apply w-full h-fit py-5 items-center justify-center text-[96px] max-md:text-[64px] text-[#2A2A2A] border-[#2A2A2A] border-t-2 border-b-2 text-center;
+  @apply w-full h-fit py-5 items-center justify-center text-[96px] max-md:text-[58px] text-[#2A2A2A] border-[#2A2A2A] border-t-2 border-b-2 text-center;
 }
 
 .popularctg-list{
