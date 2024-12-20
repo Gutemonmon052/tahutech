@@ -5,7 +5,7 @@
 
 .articledet-title{
   font-family: "Poppins";
-  @apply w-full h-fit py-10 text-[96px] max-md:text-[48px] max-md:px-10 max-md:leading-[48px] text-[#2A2A2A] border-t-2 border-[#2A2A2A] flex items-center justify-center leading-[95px];
+  @apply w-full h-fit py-10 text-[86px] max-md:text-[36px] max-md:px-10 max-md:leading-[38px] text-[#2A2A2A] border-t-2 border-[#2A2A2A] flex items-center justify-center leading-[88px];
 }
 
 .articledet-identity{
